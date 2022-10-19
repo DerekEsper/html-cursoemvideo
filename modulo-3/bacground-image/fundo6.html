@@ -7,27 +7,28 @@
   <title>Posicionamento</title>
   <style>
     body {
-      /*background-attachment: fixed;  imagem de fundo travada - vinculo
       background-color: rgb(51, 48, 48);
       background-image: url('imagens/wallpaper002.jpg');
       background-position: center center;
-      background-size: auto;
-      
-      SHORTHAND - BACKGROUND
-      COLOR > IMAGE > POSITION > REPEAT > **SIZE** > ATTACHMENT */
-
-      background: rgb(4, 162, 224) url('imagens/wallpaper002.jpg') center center no-repeat fixed; /* SHORTHAND */
-      background-size: cover; /* imagem "cobre" o container inteiro */
-      height: 100vh;
       background-repeat: no-repeat;
-    }
+      background-size: cover; /* imagem "cobre" o container inteiro */     
+      background-attachment: fixed;  /* imagem de fundo travada - vinculo */
+
+      /*
+      SHORTHAND - BACKGROUND
+      
+      COLOR > IMAGE > POSITION > REPEAT > **SIZE** > ATTACHMENT 
+
+      background: rgb(4, 162, 224) url('imagens/wallpaper002.jpg') center center no-repeat fixed;      
+      */ 
+    } 
 
     main {
-      border: 8px double orangered;
       background-color: white;
-      max-width: 300px;
+      max-width: 400px;
       padding: 10px;
       margin: auto;
+      border: 8px double orangered;
       border-radius: 15px;
     }
   </style>
