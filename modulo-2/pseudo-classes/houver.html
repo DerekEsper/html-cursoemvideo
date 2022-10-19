@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de hover</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    }
+
+    div > p  { /* paragrafo que está dentro da div */
+      display: none;
+    }
+
+    div:hover > p {
+      display: block; /* para aparecer o paragrafo */
+      color: yellow;
+      background-color: rgb(131, 131, 153);
+    }
+
+    div:hover {
+      /* quando tem : é uma pseudo-classe */
+      color: rgb(255, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exemplo de hover</h1>
+  <p>Passe o mouse sobre o texto abaixo</p>
+  <div>
+    Passe o mouse aqui
+    <p>Texto escondico</p>
+  </div>
+  
+
+</body>
+
+</html>

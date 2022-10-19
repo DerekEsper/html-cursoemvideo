@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhando com Links</title>
+  <style>
+    body {      
+      background: rgb(47, 48, 46);
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 30px;
+      color: rgb(243, 38, 11);
+    }
+
+    h2 {
+      font-size: 24px;
+      color: rgb(160, 1, 252);
+    }
+
+    p {
+      color: rgb(10, 159, 245);
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Usando Links</h1>
+
+  <h2>Links Internos - &lt;a&gt; &lt;/a&gt;</h2>
+  <p>Está é a primeira página do site, se você quiser pode acessar a<a href="page2.html" rel="next"> segunda página</a>
+  </p>
+
+  <h2>Links Externos - &lt;a&gt; &lt;/a&gt;</h2>
+  <p>Você pode acessar meu repositorio publico do <a href="https://github.com/DkEsper" target="_blank"
+      rel="external">GitHub</a></p>
+  <p>Voce também pode visitar meu <a href="https://www.Linkedin.com/in/derekesper">Linkedin</a></p>
+  <p>Esta é uma página de oferecimento <a href="https://www.hostinet.com.br" target="nofollow">Hostinet</a></p>
+
+
+  <h2>TAGS</h2>
+  <p><strong><em>href="../index.html"</em></strong> volta para a pasta anterior</p>
+  <p><strong><em>href="endereço do site"</em></strong> endereço do site que o link irá abrir</p>
+  <p><strong><em>rel="external"</em></strong> indica que é um link externo. Que vai para fora do meu site</p>
+  <p><strong><em>rel="next"</em></strong> indica que está pagina é a posterior</p>
+  <p><strong><em>rel="prev"</em></strong> indica que está pagina é a anterior ou principal</p>
+  <p><strong><em>target="_blank"</em></strong> abre o link em uma nova guia</p>
+  <p><strong><em>target="nofollow"</em></strong> indica para o mecanismo de busca que você não da um aval para buscas neste site</p>
+  <p><strong><em>target="_self"</em></strong> especifico para abrir o link na própria aba</p>
+  
+  <h2>Links para Downloads - &lt;a&gt; &lt;/a&gt;</h2>
+  <ul>
+    <li><a href="CV_Derek_Esper.pdf" download="CV_Derek_Esper.pdf" type="aplication/pdf">Baixar o currículo em pdf</a></li>
+  </ul>
+</body>
+</html>

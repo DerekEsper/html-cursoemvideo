@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Listas</title>
+  <style>
+    body {
+      background: rgb(245, 247, 236);
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: rgb(243, 38, 11);
+    }
+
+    h2 {
+      color: rgb(252, 101, 1);
+    }
+
+    li {
+      color: rgb(10, 159, 245);
+      font-size: 18px;
+    }
+
+    #mista {
+      display: flex;
+      padding: 0px 5px 2px 0px;
+    }
+
+    h3 {
+      color: rgb(10, 159, 245);
+      font-size: 16px;
+    }
+
+    dl {
+      color: rgb(10, 159, 245);
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TRABALHANDO COM LISTAS</h1>
+  <h2>Listas Ordenadas - OL type="A" start="2"</h2>
+  <ol type="1" start="4">
+    <!-- 1 A a I i -->
+    <li>Nascer</li> <!-- li = list item -->
+    <li>Crescer</li>
+    <li>Aprender</li>
+    <li>Desenvolver</li>
+    <li>Amadurecer</li>
+    <li>Morrer</li>
+  </ol>
+
+
+  <h2>Listas Não Ordenadas - UL type="square"</h2>
+  <ul type="square">
+    <!-- disc circle square -->
+    <li>Nascer</li> <!-- li = list item -->
+    <li>Crescer</li>
+    <li>Aprender</li>
+    <li>Desenvolver</li>
+    <li>Amadurecer</li>
+    <li>Morrer</li>
+  </ul>
+
+
+  <h2>Listas Mistas</h2>
+  <div id="mista">
+    <ol>
+      <li>Números Pares</li>
+      <ol type="A">
+        <li>2</li>
+        <li>4</li>
+        <li>6</li>
+        <li>8</li>
+        <li>10</li>
+      </ol><br>
+      <li>Números Impares</li>
+      <ol type="A" start="6">
+        <li>1</li>
+        <li>3</li>
+        <li>5</li>
+        <li>7</li>
+        <li>9</li>
+      </ol>
+    </ol>
+
+    <ol id="exemplo">
+      <li>Números Pares</li>
+      <ol type="a">
+        <li>2</li>
+        <li>4</li>
+        <li>6</li>
+        <li>8</li>
+        <li>10</li>
+      </ol><br>
+      <li>Números Impares</li>
+      <ol type="a">
+        <li>1</li>
+        <li>3</li>
+        <li>5</li>
+        <li>7</li>
+        <li>9</li>
+      </ol>
+    </ol>
+  </div>
+
+  <h2>Lista de Definição - DL DT DD</h2>
+  <h3>dl - Lista de Definição</h3>
+  <h3>dt - Termo</h3>
+  <h3>dd - Descrição</h3>
+
+  <h2>Exemplo</h2>
+
+  <dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação de texto</dd><br>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação do design de um site</dd><br>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a interatividade de um site</dd><br>
+  </dl>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

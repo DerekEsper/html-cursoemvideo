@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personalizando Links</title>
+	<style>
+		/*   
+			# = ID
+      . = CLASS
+      : = PSEUDO-CLASS
+      :: = PSEUDO-ELEMENT
+      > = CHILDREN 
+    */
+		
+		a {
+			font-weight: bold;
+			color: aqua;
+			text-decoration: none;
+		}
+
+		a:visited {
+			/* site visitado */
+			color: brown;
+		}
+
+		a:hover {
+			color: rgb(10, 143, 143);
+			text-decoration: underline;
+			/* sublinhado */
+		}
+
+		a:active {
+			/* quando mantenho pressionado */
+			text-decoration: none;
+			color: blue;
+		}
+
+		/* PSEUDO-ELEMENTO USA :: */
+
+		a::after {
+			/* add antes do link ou elemento */
+			content: '  <=  ';
+		}
+
+		a::before {
+			/* add depois do link ou elemento */
+			content: '  => ';
+		}
+
+		p {
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Personalizando Links</h1>
+
+	<ul>
+		<li><a href="https://github.com/DkEsper" target="_blank">Repositório do GitHub</a></li>
+		<li><a href="https://www.instagram.com/" target="_blank">Fotos do Instagram</a></li>
+		<li><a href="https://cursos.alura.com.br/dashboard" target="_blank">Curso Alura</a></li><br>
+
+		<h2>Itens do CSS</h2>
+		<p># = ID</p>
+		<p>.  = CLASS</p>
+		<p>:  = PSEUDO-CLASS</p>
+		<p>::  = PSEUDO-ELEMENT</p>
+		<p>>  = CHILDREN</p>
+
+	</ul>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação</title>
+    <style>
+        body {
+            background: rgb(47, 48, 46);
+        }
+
+        h1 {
+            font-size: 30px;
+            color: rgb(243, 38, 11);
+        }
+
+        h2 {
+            color: rgb(255, 85, 7);
+        }
+
+        p {
+            color: rgb(10, 159, 245); 
+            font-size: 22px;
+        }
+
+        mark {
+            background-color:rgb(48, 250, 8);            
+        }
+        blockquote {
+            color: rgb(10, 159, 245); 
+            font-size: 16px;
+        }
+
+        pre {
+            color: rgb(10, 159, 245); 
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Principais Formatações</h1><br>
+
+    <h2>Negrito / Destaque - &lt;strong&gt; &lt;/strong&gt;</h2>
+    <p>Para deixar o texto Negrito <strong>texto de exemplo</strong></p><br>
+    
+    <h2>Itálico / Ênfase - &lt;em&gt; &lt;/em&gt;</h2>
+    <p>Para deixar o texto Itálico <em>texto de exemplo</em></p><br>
+    
+    <h2>Texto Marcado - &lt;mark&gt; &lt;/mark&gt;</h2>
+    <p>Para deixar o texto Marcado <mark>texto de exemplo</mark></p><br>
+    
+    <h2>Texto Deletado - &lt;del&gt; &lt;/del&gt;</h2>
+    <p>Para marcar o texto Deletado <del>texto de exemplo</del></p><br>
+    
+    <h2>Texto Sublinhado / Inserido - &lt;ins&gt; &lt;/ins&gt;</h2>
+    <p>Para deixar o texto Sublinhado <ins>texto de exemplo</ins></p><br>
+    
+    <h2>Text Sobrescrito - &lt;sup&gt; &lt;/sup&gt;</h2>
+    <p>Para deixar o texto Sobrescrito x<sup>20</sup> + 3</p><br>
+    
+    <h2>Text Subscrito - &lt;sub&gt; &lt;/sub&gt;</h2>
+    <p>Para deixar o texto Subscrito H<sub>2</sub>O</p><br>
+
+    <h1>OUTRAS FORMATAÇÕES</h1><br>
+
+    <h2>Texto Código-Fonte - &lt;code&gt; &lt;/code&gt;</h2>    
+    <p>Para marcar o texto como código <code>document.getElementById()</code></p><br>
+
+    <h2>Texto Pré-Formatado - &lt;pre&gt; &lt;/pre&gt;</h2>    
+    <p>Formata o texto como código e identação</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR!')
+    else:
+        print(f'O número {num} é IMPAR!'')
+    print('Fim do programa')
+        </code>
+    </pre><br>
+
+    <h2>Citações Simples - &lt;q&gt; &lt;/q&gt;</h2>
+    <p>Como diria o pai de uma amigo: <q>O Computador é um burro mais rápido</q></p><br>
+
+    <h2>Citações Completas - &lt;blockquote&gt; &lt;/blockquote&gt; cite="https://pt.wikipedia.org/wiki/Ad_Marciam,_De_consolatione"</h2>    
+    <p>Segundo Séneca, em seu Diálogo "Ad Marciam, De consolatione":</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Ad_Marciam,_De_consolatione">
+        "No entanto, quem diria que a natureza tem tratado com rancor 
+        as mentes das mulheres, e atrofiado suas virtudes? Acredite, 
+        elas têm o mesmo poder intelectual que os homens, e a mesma 
+        capacidade de ação honrada e generosa. Se treinadas para isso, 
+        elas são igualmente capazes de suportar a tristeza ou o trabalho"
+    </blockquote><br>
+
+    <h2>Abreviações - &lt;abbr&gt; &lt;/abbr&gt; title=" "</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e 
+    <abbr title="Cascading Style Sheets">CSS</abbr></p><br>
+
+    <h2>Texto Invertido - &lt;bdo&gt; &lt;/bdo&gt; dir="rtl"</h2>
+    <p><bdo dir="rtl">Texto de Exemplo</bdo></p>
+</body>
+</html>
