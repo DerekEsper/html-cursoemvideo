@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destaque de colunas</title>
+  <style>
+    body {
+      background-color: rgb(112, 112, 112);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+    }
+
+    caption {
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 8px;
+    }
+
+    th, td {
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .colname {
+      background-color: rgb(87, 252, 11);
+    }    
+
+    .colsexo {
+      background-color: rgb(248, 8, 228);
+    }
+
+    .colidade {
+      background-color: rgb(18, 136, 240);
+    }
+
+    .colprofissao {
+      background-color: rgb(250, 54, 4);
+    } 
+
+    .amarelo {
+      background-color: yellow; /*Exemplo 2*/
+    }
+
+    .vermelho {
+      background-color: red; /*Exemplo 2*/
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Tabela 5</h1>
+
+  <table>
+
+     <!--<colgroup>
+      <col class="amarelo">
+      <col class="vermelho">
+      <col class="amarelo">
+      <col class="vermelho">
+    </colgroup>--> 
+
+    <colgroup> <!-- tag para marcar em colunas -->
+      <col class="colname">
+      <col class="colsexo">
+      <col class="colidade" span="2"><!--span expansão p/ 2 colunas -->
+      <col class="colprofissao">
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>          
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Patricia</td>
+        <td>F</td>
+        <td>25</td>        
+        <td>Jornalista</td>        
+      </tr>
+      <tr>
+        <td>Claudio</td>
+        <td>M</td>
+        <td>28</td>        
+        <td>Programador</td>        
+      </tr>
+      <tr>
+        <td>Gustavo</td>
+        <td>M</td>
+        <td>42</td>        
+        <td>Professor</td>        
+      </tr>
+      <tr>
+        <td>Hélio</td>
+        <td>M</td>
+        <td>19</td>        
+        <td>Vendedor</td>        
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>F</td>
+        <td>39</td>        
+        <td>Médica</td>        
+      </tr>
+      <tr>
+        <td>Otávio</td>
+        <td>M</td>
+        <td>22</td>        
+        <td>Nutricionista</td>        
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
