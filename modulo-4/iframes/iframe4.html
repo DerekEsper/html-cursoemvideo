@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iframe seguro</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(82, 82, 82);
+      color: white;
+    }
+
+    iframe {
+      width: 600px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Segurança dentro do iframe</h1>
+
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus debitis officia corrupti, quidem pariatur eligendi esse fugiat voluptatum culpa beatae repellendus dolores rem nobis eaque dolore quis ratione doloremque quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, amet ipsa laboriosam ipsam eius ab esse expedita reiciendis atque minima sit cum explicabo quo molestiae sunt, veniam hic? Alias, culpa?</p>
+
+  <!-- sandbox="sandbox" Bloqueia o acesso externo dentro do iframe (não deixa capturar informação do formulario) -->
+
+  <!-- referrerpolicy="no-referrer" Site extorno não coleta dados ex cookies  -->
+
+  <!-- sandbox="allow-same-origin" Se a paginas estiverem no mesmo servidor -->
+  
+  <iframe src="paginas-extras/pag4.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">Seu navegador não é compativel com iframe</iframe>
+
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus debitis officia corrupti, quidem pariatur eligendi esse fugiat voluptatum culpa beatae repellendus dolores rem nobis eaque dolore quis ratione doloremque quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, amet ipsa laboriosam ipsam eius ab esse expedita reiciendis atque minima sit cum explicabo quo molestiae sunt, veniam hic? Alias, culpa?</p>
+</body>
+</html>

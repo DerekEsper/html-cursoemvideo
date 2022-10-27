@@ -16,6 +16,12 @@
       height: 300px;
       border: 2px solid black;
     }
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: rgb(230, 22, 202);
+    }
   </style>
 </head>
 <body>
@@ -34,7 +40,7 @@
 
   <!-- para abrir uma pag no iframe tem que colocar propriedade name e o target no link com o mesmo nome. Ex name="frame" target="frame" -->
 
-  <iframe id="tela" name="frame" src="" ></iframe>
+  <iframe id="tela" name="frame" srcdoc="<img src='paginas-extras/Van Gogh.jpg'>"></iframe>
 
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio hic sint fuga repellat, qui incidunt quas neque inventore architecto molestiae. Temporibus accusamus odit neque, sapiente modi necessitatibus quisquam eligendi placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ex voluptas. Blanditiis eveniet, sint facere dolore iste pariatur a velit hic aperiam sit, odio vero tenetur, voluptas alias harum eligendi!</p>
 </body>
