@@ -33,19 +33,19 @@ h1 {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.342);
 }
 
-img#phone { 
+#phone { 
   display: block;
   margin: auto;
 }
-img#tablet {
+#tablet {
   display: none;
 }
-img#print {
+#print {
   display: none
 }
-img#pc {
+#pc {
   display: none;
 }
-img#tv {
+#tv {
   display: none;
 }
