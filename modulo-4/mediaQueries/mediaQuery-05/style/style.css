@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  background-color: rgb(187, 187, 187);
+  border: 1px solid rgb(247, 5, 5);
+}
+
+header {
+  background-color: rgb(90, 90, 90);
+}
+
+header h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+#imenu {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white; 
+  background-color: rgb(40, 41, 41);
+  cursor: pointer;
+}
+
+/* 
+NÃO GOSTEI
+#imenu:hover {
+  color: black;
+  background-color: white;
+}
+*/
+
+menu {
+  display: none; /* none para esconder os links / estava block */
+}
+
+menu  ul {
+  list-style-type: none;
+}
+
+menu a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(44, 44, 44);
+  border-top: 2px solid gray;
+}
+
+menu a:hover {
+  background-color: gray;
+}
+
+main {
+  width: 90vw;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+article > h2 {
+  padding-bottom: 20px;
+}
+
+article > p {
+  text-align: justify;
+  text-indent: 20px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
